@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Taxi</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZmFycnV4bWF4bXVkb3YiLCJhIjoiY2xleDRhaTJkMGo1cDNxcXd0bjd1NTJiZiJ9.Zg_-q_KTobiJ8uczL3QiRw</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gps_network_not_enabled">Your location is turn off</string>
+    <string name="open_location_settings">Your location is turn on</string>
+    <string name="Cancel">Cancel</string>
+
+</resources>

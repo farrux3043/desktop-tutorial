@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                username = 'mapbox'
+                password = "sk.eyJ1IjoiZmFycnV4bWF4bXVkb3YiLCJhIjoiY2xleDRjM2NnMWZvbjNzczBnN2xxbzY2eiJ9.5Dq4CSBefk9HhXoLFSTOPw"
+            }
+        }
+    }
+}
+rootProject.name = "My Taxi"
+include ':app'
